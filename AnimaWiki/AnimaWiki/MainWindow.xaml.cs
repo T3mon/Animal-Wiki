@@ -22,6 +22,8 @@ namespace AnimaWiki
     {
         public MainWindow()
         {
+
+            //------------
             InitializeComponent();
         }
     }
