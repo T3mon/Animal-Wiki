@@ -5,8 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AnimaWiki"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" Height="850" Width="1200">
+    <Grid Margin="0,0,838,0">
+        <Grid x:Name="CategoryGrid" Background="#FF403F3F">
+            <ListView Name="KindOfAnimalView" Foreground="White" Background="#FF403F3F" HorizontalAlignment="Center" 
+                      SelectionChanged="ListView_SelectionChanged" FontSize="20" FontFamily="Swis721 BlkCn BT" Width="362" />
+        </Grid>
+        <Grid Background="#FFC1F1F1"  x:Name="IfoGrid" Margin="342,0,-838,0">
+            <Image x:Name="AnimalImg"   Margin="228,22,228,420"/>
+            <TextBlock x:Name="NameOfAnimalTb" Margin="0,417,0,351" HorizontalAlignment="Center" FontSize="20">asdasd</TextBlock>
+            <Label Margin="0,519,679,240" FontSize="15" FontWeight="Bold">Вес:</Label>
+            <Label Margin="0,599,679,164" FontSize="15" FontWeight="Bold">Размер:</Label>
+            <Label Margin="0,673,621,76" FontSize="15" FontWeight="Bold" Content="Продолжительность жизни:"/>
+            <TextBlock x:Name="WeightTb" Margin="235,519,0,266" FontSize="15">adsad</TextBlock>
+            <TextBlock x:Name="SizeTb" Margin="235,599,0,186" FontSize="15"><Run Text="adsad"/></TextBlock>
+            <TextBlock x:Name="LifeTb" Margin="235,673,0,112" FontSize="15"><Run Text="adsad"/></TextBlock>
+        </Grid>
 
     </Grid>
 </Window>
