@@ -8,8 +8,8 @@
         Title="MainWindow" Height="850" Width="1200">
     <Grid Margin="0,0,838,0">
         <Grid x:Name="CategoryGrid" Background="#FF403F3F">
-            <ListView Name="KindOfAnimalView" Foreground="White" Background="#FF403F3F" HorizontalAlignment="Center" 
-                      SelectionChanged="ListView_SelectionChanged" FontSize="20" FontFamily="Swis721 BlkCn BT" Width="362" />
+            <TreeView Name="KindOfAnimalView" Foreground="White" Background="#FF403F3F" HorizontalAlignment="Center" 
+                     SelectedItemChanged="KindOfAnimalView_SelectedItemChanged"  FontSize="20" FontFamily="Swis721 BlkCn BT" Width="362" />
         </Grid>
         <Grid Background="#FFC1F1F1"  x:Name="IfoGrid" Margin="342,0,-838,0">
             <Image x:Name="AnimalImg"   Margin="228,22,228,420"/>
