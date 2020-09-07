@@ -1,4 +1,6 @@
-﻿namespace AnimaWiki
+﻿using System.Collections.ObjectModel;
+
+namespace AnimaWiki
 {
     internal class Node
     {

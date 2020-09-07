@@ -20,6 +20,8 @@
             <TextBlock x:Name="WeightTb" Margin="235,519,0,266" FontSize="15">adsad</TextBlock>
             <TextBlock x:Name="SizeTb" Margin="235,599,0,186" FontSize="15"><Run Text="adsad"/></TextBlock>
             <TextBlock x:Name="LifeTb" Margin="235,673,0,112" FontSize="15"><Run Text="adsad"/></TextBlock>
+            <Label Margin="-1,738,622,11" FontSize="15" FontWeight="Bold" Content="Сила яд:"/>
+            <TextBlock x:Name="PoisonPower" Margin="232,733,3,52" FontSize="15"><Run Text="adsad"/></TextBlock>
         </Grid>
 
     </Grid>
