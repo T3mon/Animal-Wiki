@@ -33,15 +33,126 @@ namespace AnimaWiki
                     Name = "poeciloteria",
                     Nodes = new ObservableCollection<Node>
                     {
-                        
+
                     }
                 }
             };
-            
+
         }
 
         private static void FillTheZoo()
         {
+            List<arthropods> animals = new List<arthropods>()
+            {
+                new poeciloteria
+                {
+                    name = "poeciloteria regalis",
+                    weight = 75,
+                    size = 28,
+                    price = 600,
+                    poison = 8,
+                    img = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Poecilotheria_regalis_005.jpg/275px-Poecilotheria_regalis_005.jpg"
+                },
+                new poeciloteria
+                {
+                     name = "poeciloteria ornata",
+                     weight = 80,
+                     size = 30,
+                     price = 400,
+                     poison = 10,
+                     img = " https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Poecilotheria_ornata_-_female_-_top_view.jpg/275px-Poecilotheria_ornata_-_female_-_top_view.jpg"
+                },
+                new poeciloteria
+                {
+                     name = "poeciloteria miranda",
+                     weight = 70,
+                     size = 25,
+                     price = 1000,
+                     poison = 8,
+                     img = "https://www.spidersworld.eu/327/poecilotheria-miranda-25cm-bengal-ornamental.jpg"
+                },
+                new poeciloteria
+                {
+                     name = "poeciloteria metallica",
+                     color = "blue",
+                     weight = 60,
+                     size = 19,
+                     price = 2500,
+                     poison = 10,
+                     img = "https://pazitiff.info/uploads/posts/2015-09/1441394009_00fb7d5f3f0f7103a3cdffd2a8a0a14f.jpg"
+                },
+                new poeciloteria
+                {
+                     name = "poeciloteria formosa",
+                     weight = 70,
+                     size = 22,
+                     price = 900,
+                     poison = 9,
+                     img = "https://ah.net.ua/wa-data/public/shop/products/83/46/4683/images/6205/6205.970.jpg"
+                },
+                new poeciloteria
+                {
+                     name = "poeciloteria fasciata",
+                     weight = 70,
+                     size = 20,
+                     price = 600,
+                     poison = 10,
+                     img = "https://lh3.googleusercontent.com/proxy/yS_gphq-o6oW2Bv6uxCPygPjaGLdyYPMj7ePx3f_8Nn1KKmNxaZRss2w1lRQjZOHERLAZIzxelMY5n4W7LAUWNlyrAuvxTVKmK2Sx0yEp1OABOw"
+                },
+                ////
+                new brachypelma
+                {
+                    name = "poeciloteria regalis",
+                    weight = 75,
+                    size = 28,
+                    price = 600,
+                    img = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Poecilotheria_regalis_005.jpg/275px-Poecilotheria_regalis_005.jpg"
+                },
+                new brachypelma
+                {
+                     name = "poeciloteria ornata",
+                     weight = 80,
+                     size = 30,
+                     price = 400,
+                     img = " https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Poecilotheria_ornata_-_female_-_top_view.jpg/275px-Poecilotheria_ornata_-_female_-_top_view.jpg"
+                },
+                new brachypelma
+                {
+                     name = "poeciloteria miranda",
+                     weight = 70,
+                     size = 25,
+                     price = 1000,
+                     img = "https://www.spidersworld.eu/327/poecilotheria-miranda-25cm-bengal-ornamental.jpg"
+                },
+                new brachypelma
+                {
+                     name = "poeciloteria metallica",
+                     color = "blue",
+                     weight = 60,
+                     size = 19,
+                     price = 2500,
+                     img = "https://pazitiff.info/uploads/posts/2015-09/1441394009_00fb7d5f3f0f7103a3cdffd2a8a0a14f.jpg"
+                },
+                new brachypelma
+                {
+                     name = "poeciloteria formosa",
+                     weight = 70,
+                     size = 22,
+                     price = 900,
+                     img = "https://ah.net.ua/wa-data/public/shop/products/83/46/4683/images/6205/6205.970.jpg"
+                },
+                new brachypelma
+                {
+                     name = "poeciloteria fasciata",
+                     weight = 70,
+                     size = 20,
+                     price = 600,
+                     img = "https://lh3.googleusercontent.com/proxy/yS_gphq-o6oW2Bv6uxCPygPjaGLdyYPMj7ePx3f_8Nn1KKmNxaZRss2w1lRQjZOHERLAZIzxelMY5n4W7LAUWNlyrAuvxTVKmK2Sx0yEp1OABOw"
+                }
+            };
+
+
+
             brachypelma albiceps = new brachypelma();
             brachypelma boehmei = new brachypelma();
             brachypelma smithi = new brachypelma();
@@ -56,49 +167,8 @@ namespace AnimaWiki
             poeciloteria ornata = new poeciloteria();
             poeciloteria regalis = new poeciloteria();
 
-            regalis.name = "poeciloteria regalis";
-            regalis.weight = 75;
-            regalis.size = 28;
-            regalis.price = 600;
-            regalis.poison = 8;
-            regalis.img = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Poecilotheria_regalis_005.jpg/275px-Poecilotheria_regalis_005.jpg";
 
-            ornata.name = "poeciloteria ornata";
-            ornata.weight = 80;
-            ornata.size = 30;
-            ornata.price = 400;
-            ornata.poison = 10;
-            ornata.img = " https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Poecilotheria_ornata_-_female_-_top_view.jpg/275px-Poecilotheria_ornata_-_female_-_top_view.jpg";
-
-            miranda.name = "poeciloteria miranda";
-            miranda.weight = 70;
-            miranda.size = 25;
-            miranda.price = 1000;
-            miranda.poison = 8;
-            miranda.img = "https://www.spidersworld.eu/327/poecilotheria-miranda-25cm-bengal-ornamental.jpg";
-
-            metallica.name = "poeciloteria metallica";
-            metallica.color = "blue";
-            metallica.weight = 60;
-            metallica.size = 19;
-            metallica.price = 2500;
-            metallica.poison = 10;
-            metallica.img = "https://pazitiff.info/uploads/posts/2015-09/1441394009_00fb7d5f3f0f7103a3cdffd2a8a0a14f.jpg";
-
-            formosa.name = "poeciloteria formosa";
-            formosa.weight = 70;
-            formosa.size = 22;
-            formosa.price = 900;
-            formosa.poison = 9;
-            formosa.img = "https://ah.net.ua/wa-data/public/shop/products/83/46/4683/images/6205/6205.970.jpg";
-
-            fasciata.name = "poeciloteria fasciata";
-            fasciata.weight = 70;
-            fasciata.size = 20;
-            fasciata.price = 600;
-            fasciata.poison = 10;
-            fasciata.img = "https://lh3.googleusercontent.com/proxy/yS_gphq-o6oW2Bv6uxCPygPjaGLdyYPMj7ePx3f_8Nn1KKmNxaZRss2w1lRQjZOHERLAZIzxelMY5n4W7LAUWNlyrAuvxTVKmK2Sx0yEp1OABOw";
-
+            /////
             albiceps.name = "brachypelma albiceps";
             albiceps.weight = 50;
             albiceps.size = 15;
